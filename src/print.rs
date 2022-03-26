@@ -15,4 +15,14 @@ pub fn run() {
     // Named Arguments
 
     println!("{name} likes to play {activity}", name = "Maygane", activity = "Cosplayer");
+
+    // Variable Exo need Mut
+
+    let mut x = 10;
+
+    println!("x is {}", x);
+
+    x = 20;
+
+    println!("x is {}", x);
 }
